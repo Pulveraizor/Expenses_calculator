@@ -33,6 +33,26 @@ body {
     border-right: none;
     min-height: 2em;
 }
+.person-amounts button {
+    margin-top: 0.05em;
+    background-color: white;
+    border: solid red 1px;
+    color: red;
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    line-height: 0.75em;
+    text-indent: -0.28em;
+}
+.person-amounts p {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.person-amounts p:hover {
+    background-color: rgba(128, 128, 128, 0.13);
+}
 .person-total {
     text-align: center;
 }
