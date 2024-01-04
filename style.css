@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    margin-top: 2em;
+}
+.person {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.person > * {
+    margin: 0.5em;
+}
+.result {
+    display: flex;
+    flex-direction: column;
+}
+.person-amounts {
+    font-size: small;
+    border: solid 1px black;
+    border-left: none;
+    border-right: none;
+    min-height: 2em;
+}
+.person-total {
+    text-align: center;
+}

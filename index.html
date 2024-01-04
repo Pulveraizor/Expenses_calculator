@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="person">
+                <label for="person1">Benas</label>
+                <input type="number" id="person1">
+                <button id="personOneSubmit">Submit</button>
+                <div class="person-amounts" id="person_one_amounts"></div>
+                <div class="person-total">Benas total: <span id="person_one_total"></span></div>
+            </div>
+            <div class="person">
+                <label for="person2">Urtė</label>
+                <input type="number" id="person2">
+                <button id="personTwoSubmit">Submit</button>
+                <div class="person-amounts" id="person_two_amounts"></div>
+                <div class="person-total">Urte total: <span id="person_two_total"></span></div>
+            </div>
+        </div>
+        <div class="result">
+            <div>
+                <span>Total: <span id="total">00.00</span></span>
+            </div>
+            <div>
+                <span>Split cost: <span id="split_cost">00.00</span></span>
+            </div>
+            <div>
+                <span id="debt"></span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
