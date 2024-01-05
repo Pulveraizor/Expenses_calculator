@@ -31,7 +31,7 @@ body {
     border: solid 1px black;
     border-left: none;
     border-right: none;
-    min-height: 2em;
+    min-height: 1em;
 }
 .person-amounts button {
     margin-top: 0.05em;
@@ -41,8 +41,8 @@ body {
     border-radius: 50%;
     width: 1em;
     height: 1em;
-    line-height: 0.75em;
-    text-indent: -0.28em;
+    line-height: 0.7em;
+    text-indent: -0.3em;
 }
 .person-amounts p {
     margin: 0;
