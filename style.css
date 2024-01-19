@@ -1,26 +1,47 @@
 body {
+    color: white;
+    height: 100vh;
     margin: 0;
     padding: 0;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 6%, rgba(156,148,133,1) 84%);
 }
 .container {
     display: flex;
     flex-direction: column;
+    height: 100%;
     width: 100%;
     justify-content: center;
     align-items: center;
 }
 .card {
     display: flex;
-    margin-top: 2em;
 }
 .person {
+    margin: 0.2em 0.2em;
     padding: 2em;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.139);
+    border-radius: 5px;
 }
 .person > * {
     margin: 0.5em;
+}
+.person > input {
+    color: rgba(255, 255, 255, 0.393);
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.393);
+    border-radius: 3px;
+}
+.person > input:focus {
+    outline: none;
+}
+.person > button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.11);
+    border: 1px solid rgba(255, 255, 255, 0.393);
+    border-radius: 3px;
 }
 .result {
     display: flex;
@@ -28,15 +49,15 @@ body {
 }
 .person-amounts {
     font-size: small;
-    border: solid 1px black;
+    border: solid 1px rgba(255, 255, 255, 0.393);
     border-left: none;
     border-right: none;
     min-height: 1em;
 }
 .person-amounts button {
     margin-top: 0.05em;
-    background-color: white;
-    border: solid red 1px;
+    background-color: rgba(255, 255, 255, 0.605);
+    border: solid rgb(255, 0, 0) 1px;
     color: red;
     border-radius: 50%;
     width: 1em;
@@ -51,7 +72,7 @@ body {
     justify-content: space-between;
 }
 .person-amounts p:hover {
-    background-color: rgba(128, 128, 128, 0.13);
+    background-color: rgba(128, 128, 128, 0.374);
 }
 .person-total {
     text-align: center;
